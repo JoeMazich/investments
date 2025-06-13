@@ -7,4 +7,4 @@
   - Thunk
 - SCSS
   - Or some styling solution
-- PreCommit
+  - Read through AirBnb style guide
