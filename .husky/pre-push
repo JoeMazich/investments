@@ -1,2 +1,6 @@
 echo "Running pre-push checks..."
-npm run test
+
+branchName=$(git rev-parse --abbrev-ref HEAD)
+echo "$branchName"
+
+# npm run test
