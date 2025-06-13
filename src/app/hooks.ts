@@ -1,5 +1,7 @@
-import type { AppDispatch, RootState } from "./store";
-import { useDispatch, useSelector } from "react-redux";
+/* eslint-disable no-restricted-imports */
 
-export const useAppDispatch = useDispatch.withTypes<AppDispatch>();
-export const useAppSelector = useSelector.withTypes<RootState>();
+import type { AppDispatch, RootState } from './store'
+import { useDispatch, useSelector } from 'react-redux'
+
+export const useAppDispatch = useDispatch.withTypes<AppDispatch>()
+export const useAppSelector = useSelector.withTypes<RootState>()

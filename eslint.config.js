@@ -26,13 +26,8 @@ export default tseslint.config(
           paths: [
             {
               name: 'react-redux',
-              importNames: ['useDispatch'],
-              message: 'Please use useAppDispatch instead',
-            },
-            {
-              name: 'react-redux',
-              importNames: ['useSelector'],
-              message: 'Please use useAppSelector instead',
+              importNames: ['useDispatch', 'useSelector'],
+              message: 'Please use useAppDispatch or useAppSelector instead',
             },
           ],
         },
