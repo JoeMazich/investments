@@ -4,4 +4,13 @@ export default {
   moduleNameMapper: {
     '\\.(css|scss)$': 'identity-obj-proxy',
   },
+  coverageThreshold: {
+    global: {
+      statements: 80,
+      branches: 70,
+      functions: 75,
+      lines: 80,
+    },
+  },
+  coverageReporters: ['text'],
 }
