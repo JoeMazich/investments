@@ -2,3 +2,5 @@ echo "Running pre-push checks..."
 
 branchName=$(git rev-parse --abbrev-ref HEAD)
 npm run test:changedSince "origin/$branchName"
+
+echo -e "Done pre-push \n"
