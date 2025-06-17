@@ -7,3 +7,5 @@
   - Thunk
 - Testing
   - Reusable mock solution
+- BE Solution
+  - Firebase or AWS for secrets manager
