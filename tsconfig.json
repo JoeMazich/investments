@@ -5,12 +5,12 @@
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
-      "@app": ["src/app"],
-      "@assets": ["src/assets"],
-      "@components": ["src/components"],
-      "@redux": ["src/redux"]
+      "@app/*": ["src/app/*"],
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@redux/*": ["src/redux/*"]
     }
   }
 }
