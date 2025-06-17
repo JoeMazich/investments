@@ -5,6 +5,5 @@
   - Layouts
 - Redux
   - Thunk
-- SCSS
-  - Or some styling solution
-  - Read through AirBnb style guide
+- Testing
+  - Reusable mock solution
