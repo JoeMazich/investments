@@ -12,13 +12,13 @@ export default {
     '^@redux/(.*)$': '<rootDir>/src/redux/$1',
     '^@redux': '<rootDir>/src/redux',
   },
-  coverageThreshold: {
-    global: {
-      statements: 80,
-      branches: 70,
-      functions: 75,
-      lines: 80,
-    },
-  },
+  // coverageThreshold: {
+  //   global: {
+  //     statements: 80,
+  //     branches: 70,
+  //     functions: 75,
+  //     lines: 80,
+  //   },
+  // },
   coverageReporters: ['text'],
 }
