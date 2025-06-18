@@ -4,8 +4,10 @@ import { render, screen } from '@testing-library/react'
 
 import App from './App'
 
-test("renders the text 'Vite + React'", () => {
-  render(<App />)
-  const heading = screen.getByText(/Vite \+ React/i)
-  expect(heading).toBeInTheDocument()
+describe('App Component', () => {
+  test("renders the text 'Vite + React'", () => {
+    render(<App />)
+    const heading = screen.getByText(/Vite \+ React/i)
+    expect(heading).toBeInTheDocument()
+  })
 })
