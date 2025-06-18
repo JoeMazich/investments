@@ -23,13 +23,16 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
 
-    /* Aliases */
     "baseUrl": "./src",
     "paths": {
       "@app/*": ["app/*"],
+      "@app": ["app"],
       "@assets/*": ["assets/*"],
+      "@assets": ["assets"],
       "@components/*": ["components/*"],
-      "@redux/*": ["redux/*"]
+      "@components": ["components"],
+      "@redux/*": ["redux/*"],
+      "@redux": ["redux"]
     }
   },
   "include": ["src"]

@@ -1,14 +1,25 @@
 {
+  "files": [],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
   "compilerOptions": {
+    "lib": ["es6", "dom"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "moduleResolution": "node",
     "baseUrl": "./src",
     "paths": {
       "@app/*": ["app/*"],
+      "@app": ["app"],
       "@assets/*": ["assets/*"],
+      "@assets": ["assets"],
       "@components/*": ["components/*"],
-      "@redux/*": ["redux/*"]
+      "@components": ["components"],
+      "@redux/*": ["redux/*"],
+      "@redux": ["redux"]
     }
   }
 }

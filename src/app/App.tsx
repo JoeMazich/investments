@@ -1,8 +1,9 @@
 import './App.scss'
 
-import Button from '@components/button/Button'
+import { Button } from '@components'
+import React from 'react'
 
-function App() {
+const App: React.FC = () => {
   return (
     <div>
       <h1>Vite + React</h1>

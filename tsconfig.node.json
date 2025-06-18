@@ -21,14 +21,7 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
 
-    /* Aliases */
-    "baseUrl": "./src",
-    "paths": {
-      "@app/*": ["app/*"],
-      "@assets/*": ["assets/*"],
-      "@components/*": ["components/*"],
-      "@redux/*": ["redux/*"]
-    }
+    "baseUrl": "./src"
   },
   "include": ["vite.config.ts"]
 }

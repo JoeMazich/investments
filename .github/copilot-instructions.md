@@ -1,13 +1,13 @@
 # Code
 
-Ensure code follows the S.O.L.I.D principles:
+## Ensure code follows the S.O.L.I.D principles:
 
-# S - Single Responsibility Principle
+S - Single Responsibility Principle
 
-# O - Open/Closed Principle
+O - Open/Closed Principle
 
-# L - Liskov Substitution Principle
+L - Liskov Substitution Principle
 
-# I - Interface Segregation Principle
+I - Interface Segregation Principle
 
-# D - Dependency Inversion Principle
+D - Dependency Inversion Principle
