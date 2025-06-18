@@ -24,12 +24,12 @@
     "noUncheckedSideEffectImports": true,
 
     /* Aliases */
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
-      "@app/*": ["src/app/*"],
-      "@assets/*": ["src/assets/*"],
-      "@components/*": ["src/components/*"],
-      "@redux/*": ["src/redux/*"]
+      "@app/*": ["app/*"],
+      "@assets/*": ["assets/*"],
+      "@components/*": ["components/*"],
+      "@redux/*": ["redux/*"]
     }
   },
   "include": ["src"]
