@@ -11,6 +11,8 @@ export default {
     '^@components': '<rootDir>/src/components',
     '^@redux/(.*)$': '<rootDir>/src/redux/$1',
     '^@redux': '<rootDir>/src/redux',
+    '^@utils/(.*)$': '<rootDir>/src/utils/$1',
+    '^@utils': '<rootDir>/src/utils',
   },
   // coverageThreshold: {
   //   global: {

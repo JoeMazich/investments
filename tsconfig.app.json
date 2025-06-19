@@ -32,7 +32,9 @@
       "@components/*": ["components/*"],
       "@components": ["components"],
       "@redux/*": ["redux/*"],
-      "@redux": ["redux"]
+      "@redux": ["redux"],
+      "@utils/*": ["utils/*"],
+      "@utils": ["utils"]
     }
   },
   "include": ["src"]

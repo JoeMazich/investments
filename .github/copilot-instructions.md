@@ -1,5 +1,7 @@
 # Code
 
+Do not suggest importing React from 'react'
+
 ## Ensure code follows the S.O.L.I.D principles:
 
 S - Single Responsibility Principle

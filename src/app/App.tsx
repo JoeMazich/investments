@@ -1,7 +1,6 @@
 import './App.scss'
 
 import { Button } from '@components'
-import React from 'react'
 
 const App: React.FC = () => {
   return (
